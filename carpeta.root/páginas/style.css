@@ -4,83 +4,11 @@ padding: 0%;
 font-family: 'Rowdies', cursive;
 }
 body{ 
-    background-image: url(../páginas/img/fondo1.jpg); 
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-image: url(/carpeta.root/Assets/fondohd.jpg);
 }
-            /*INICIO*/
-header{ 
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat (2, 1fr);
-    background-color: #000;
-}
-.menu{ 
-    grid-column: 2 / 5;
-    font-size: 30px;
-}
-.menu li a{ 
-    text-decoration: none;
-    color: whitesmoke;
-}
-.menu ul{ 
-    display: flex;
-    list-style-type: none;
-    justify-content: space-around;
-}
-.menu li a:hover{
-    color: yellow;
-}
-
-.grid-container{ 
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    height: 700px;
-}
-.texto1{ 
-    grid-column: 1 / 5;
-    grid-row: 2/ 3;
-}
-.texto1 section{ 
-    padding-left: 50px;
-    text-align: center;
-}
-.texto1 section h1{ 
-    color:  rgb(88, 170, 197);
-    background-color: white;
-    border-radius: 50px ;
-    border: solid black;
-    font-size: 25px;
-}
-.texto1 section p{ 
-    background-color: rgba(134, 122, 122, 0.603);
-    font-weight: bold;
-    border-radius: 50px ;
-    border: solid white;
-}
-.dato{
-    grid-column: 10 / 12;
-    grid-row: 2 / 4;
-    text-align: center;
-}
-.dato h2{ 
-    border-radius: 50px ;
-    border: solid white;
-    color: rgb(88, 170, 197);
-    background-color: white;
-    position: relative;
-    bottom: 3px;
-}
-
-.dato p { 
-    color: rgb(88, 170, 197);
-    border-radius: 50px ;
-    border: solid white;
-    background-color: rgba(134, 122, 122, 0.603);
-    font-weight: bold;
+/*INICIO*/
+.fondotext{ 
+    background: linear-gradient(to top, whitesmoke, rgba(0, 102, 255, 0.404));
 }
             /*PIE DE PAGINA*/
 .piedepagina {  
