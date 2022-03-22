@@ -1,0 +1,77 @@
+/* INICIO/*  */
+.color-fondo {
+  background-color: lightblue; }
+
+.select:hover {
+  background-color: lightblue; }
+
+.fondotext {
+  background-color: lightblue; }
+
+/* GALERIA  */
+.color-text-foto {
+  color: #548191; }
+
+.container-text-foto, .container-textovideos {
+  background-color: whitesmoke;
+  border: 5px solid #548191; }
+
+.container-textovideos {
+  color: #548191; }
+
+/* RECORDS */
+.contenedor-records {
+  background-color: whitesmoke;
+  border: 5px solid #548191; }
+
+.titulo-records {
+  color: #548191; }
+
+body {
+  background-image: url("https://img.freepik.com/foto-gratis/campo-futbol-fondo-foco-estadio_46250-1363.jpg?size=626&ext=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+/* FOOTER  */
+.ft-text {
+  font-size: 30px; }
+
+.red, .red-ig, .red-fb {
+  font-size: 50px; }
+
+.red-ig {
+  color: #ce4e1c; }
+
+.red-fb {
+  color: rgba(56, 56, 177, 0.534); }
+
+/* GALERIA */
+.container-car {
+  padding-top: 50px; }
+
+.container-section {
+  padding-top: 45px; }
+
+.container-textovideos {
+  text-align: center; }
+
+/* RECORDS */
+.contenedor-records {
+  margin-top: 30px;
+  text-align: center; }
+
+.tabla-ubi {
+  margin-top: 30px; }
+
+/* CONTACTO */
+.contact-box {
+  margin-top: 150px;
+  margin-bottom: 250px; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+* {
+  margin: 0%;
+  padding: 0%; }

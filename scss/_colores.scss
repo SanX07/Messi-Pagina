@@ -1,0 +1,36 @@
+/* INICIO/*  */ 
+
+.color-fondo{ 
+    background-color: lightblue;
+}
+.select:hover{ 
+    background-color: lightblue;
+    }
+.fondotext{ 
+    background-color: lightblue;
+}
+
+/* GALERIA  */ 
+
+.color-text-foto{ 
+    color: rgb(84, 129, 145) ;
+}
+.container-text-foto{ 
+    background-color: whitesmoke;
+    border: 5px solid rgb(84, 129, 145);
+}
+
+.container-textovideos{ 
+    @extend .container-text-foto; 
+    color: rgb(84, 129, 145) ;
+}
+
+/* RECORDS */
+
+.contenedor-records{ 
+    background-color: whitesmoke;
+    border: 5px solid rgb(84, 129, 145);
+}
+.titulo-records{ 
+    color: rgb(84, 129, 145);
+}
